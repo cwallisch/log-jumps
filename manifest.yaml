@@ -1,0 +1,66 @@
+specVersion: "1"
+id: lax-343628
+leanVersion: "v4.33.0"
+mathlibVersion: "db584cd6d46c92f209a44c0f1c829460d327499d"
+title: 'An $O(\mu{}n)$ runtime bound for the $(\mu+1)$ GA on $\mathrm{Jump}_k$ with crossover probability 1'
+authors:
+  - name: "Timo Kötzing"
+    orcid: "0000-0002-1028-5228"
+  - name: "Christian Wallisch"
+    orcid: "0009-0007-7670-3721"
+  - name: "GPT 6.1 Sol"
+  - name: "Claude Opus 5.5"
+bibEntries:
+  - |
+    @article{JansenWegener2002,
+      author  = {Jansen, Thomas and Wegener, Ingo},
+      title   = {The Analysis of Evolutionary Algorithms---A Proof That Crossover Really Can Help},
+      journal = {Algorithmica},
+      volume  = {34},
+      number  = {1},
+      pages   = {47--66},
+      year    = {2002},
+      doi     = {10.1007/s00453-002-0940-2}
+    }
+  - |
+    @inproceedings{DangEtAl2016,
+      author    = {Dang, Duc-Cuong and Friedrich, Tobias and K{\"o}tzing, Timo and Krejca, Martin S. and Lehre, Per Kristian and Oliveto, Pietro S. and Sudholt, Dirk and Sutton, Andrew M.},
+      title     = {Escaping Local Optima with Diversity Mechanisms and Crossover},
+      booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2016)},
+      pages     = {645--652},
+      year      = {2016},
+      doi       = {10.1145/2908812.2908956}
+    }
+  - |
+    @article{DangEtAl2018,
+      author  = {Dang, Duc-Cuong and Friedrich, Tobias and K{\"o}tzing, Timo and Krejca, Martin S. and Lehre, Per Kristian and Oliveto, Pietro S. and Sudholt, Dirk and Sutton, Andrew M.},
+      title   = {Escaping Local Optima Using Crossover With Emergent Diversity},
+      journal = {IEEE Transactions on Evolutionary Computation},
+      volume  = {22},
+      number  = {3},
+      pages   = {484--497},
+      year    = {2018},
+      doi     = {10.1109/TEVC.2017.2724201}
+    }
+  - |
+    @inproceedings{DoerrEtAl2024,
+      author    = {Doerr, Benjamin and Echarghaoui, Aymen and Jamal, Mohammed and Krejca, Martin S.},
+      title     = {Runtime Analysis of the $(\mu+1)$ {GA}: Provable Speed-Ups from Strong Drift towards Diverse Populations},
+      booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume    = {38},
+      number    = {18},
+      pages     = {20683--20691},
+      year      = {2024},
+      doi       = {10.1609/aaai.v38i18.30055}
+    }
+  - |
+    @article{OprisLenglerSudholt2025,
+      author  = {Opris, Andre and Lengler, Johannes and Sudholt, Dirk},
+      title   = {Achieving Tight $O(4^k)$ Runtime Bounds on $\mathrm{Jump}_k$ by Proving that Genetic Algorithms Evolve Near-Maximal Population Diversity},
+      journal = {Algorithmica},
+      volume  = {87},
+      number  = {11},
+      pages   = {1564--1619},
+      year    = {2025},
+      doi     = {10.1007/s00453-025-01323-x}
+    }
