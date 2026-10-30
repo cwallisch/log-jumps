@@ -2,7 +2,8 @@ specVersion: "1"
 id: lax-343628
 leanVersion: "v4.33.0"
 mathlibVersion: "db584cd6d46c92f209a44c0f1c829460d327499d"
-title: 'An $O(\mu{}n)$ runtime bound for the $(\mu+1)$ GA on $\mathrm{Jump}_k$ with crossover probability 1'
+title: 'An $O(\mu{}n)$ runtime bound for the $(\mu+1)$ GA on $\mathrm{Jump}_k$
+  with crossover probability 1'
 authors:
   - name: "Timo Kötzing"
     orcid: "0000-0002-1028-5228"
@@ -64,3 +65,6 @@ bibEntries:
       year    = {2025},
       doi     = {10.1007/s00453-025-01323-x}
     }
+issue:
+  repositoryId: 1320232165
+  number: 210
